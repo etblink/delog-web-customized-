@@ -15,7 +15,7 @@ function setHtmlTitle(title) {
 function App() {
   let location = useLocation();
   location.query = useParams();
-  setHtmlTitle('DeLOG');
+  setHtmlTitle('Evan Kotler Blog');
 
   return (
     <div>
