@@ -16,7 +16,7 @@ function App() {
 
   useEffect(() => {
     const htmlTitle = document.querySelector('title');
-    htmlTitle.innerText = username + ' - DeLOG';
+    htmlTitle.innerText = username + ' - Evan Kotler Blog';
   }, [username]);
 
   return (
